@@ -1,4 +1,16 @@
-[toc]
+- [介绍](#介绍)
+- [项目目录](#项目目录)
+- [项目依赖](#项目依赖)
+- [如何运行本项目](#如何运行本项目)
+- [如何结束机器人](#如何结束机器人)
+- [机器人支持命令](#机器人支持命令)
+    - [>collect_history](#collect_history)
+    - [>service_info](#service_info)
+    - [>show_user_info](#show_user_info)
+    - [>show_bot_info](#show_bot_info)
+    - [>bsm](#bsm)
+    - [>force_stop_bsm](#force_stop_bsm)
+    - [>analysis](#analysis)
 
 ## 介绍
 本项目为一个discord的机器人。目前还相当简陋。仅能勉强运行。
