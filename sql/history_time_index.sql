@@ -1,0 +1,1 @@
+create index if not exists time on history(`date_time`);

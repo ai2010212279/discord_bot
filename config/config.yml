@@ -1,0 +1,18 @@
+history:
+  #收集哪些channel的历史消息
+  collect_channel_ids: [785427785602564108,785427785602564109]
+  #忽略哪些用户的消息，一般而已可能会忽略管理员
+  ignore_user_id: []
+  #收集信息时，每次插入数据库的数据的数量，建议1万条以内
+  batch_insert_row: 10000
+analysis:
+  #分析时，每次从数据库取多少数据。
+  page_size: 10000
+  #放关键词的文件，格式为: 每行一个关键字
+  keyword_filename: business/keywords.csv
+batch_send_msg:
+  #内容格式格式为: user_id|msg
+  #路径为相对路径
+  filename: business/batch.csv
+  #群发消息时每发送N条数据，给管理员发送一条进度提醒
+  progress_tips: 100
