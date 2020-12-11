@@ -131,3 +131,4 @@ dmypy.json
 
 *.db
 .vscode
+config/token.txt
