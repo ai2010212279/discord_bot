@@ -51,7 +51,7 @@ discord_bot
 2.在discord开发者中心，Bot栏下复制token，并贴到discord_bot/config/token.txt中。
 ![avatar](resource/bot_token.png)
 
-3.在discord_bot/script目录下执行以下命令
+3.在discord_bot目录下执行以下命令
 ```bash
 #pip也有可能是pip3，请根据情况自行变更。国内安装失败请尝试更换pip源为阿里云或者清华的源
 pip install -r requirements.txt
